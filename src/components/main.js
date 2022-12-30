@@ -9,22 +9,24 @@ import PageNotFound from './pages/PageNotFound.js';
 const { createApp } = Vue;
 
 
-// const routes = [
-//     { path: '/', component: Home },
-//     { path: '/about', component: About },
-//     { path: '/:pathMatch(.*)', component: NotFoundComponent }
-// ];
+const routes = [
+    { path: '/', component: Home },
+    { path: '/about', component: About },
+    { path: '/service', component: Service },
+    { path: '/contacts', component: Contacts },
+    { path: '/:pathMatch(.*)', component: PageNotFound }
+];
 
-// const router = VueRouter.createRouter({
-//     history: VueRouter.createWebHashHistory(),
-//     routes, // short for `routes: routes`
-// });
+const router = VueRouter.createRouter({
+    history: VueRouter.createWebHashHistory(),
+    routes, // short for `routes: routes`
+});
 
 const app = createApp({});
 
-app.component('index', Home)
+// app.component('index', Home)
 
-// app.use(router);
+app.use(router);
 
 
 

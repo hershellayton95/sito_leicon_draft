@@ -35,7 +35,13 @@
 
 <body>
     <div id="app">
-        <index />
+        <p>
+            <router-link to="/">Go to Home</router-link>|
+            <router-link to="/about">Go About</router-link>|
+            <router-link to="/service">Service</router-link>|
+            <router-link to="/contacts">Contact</router-link>|
+        </p>
+        <router-view></router-view>
     </div>
 </body>
 <!-- JavaScript Libraries -->
