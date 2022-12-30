@@ -1,10 +1,8 @@
 import Home from './pages/Index.js';
 import About from './pages/About.js';
 import Service from './pages/Service.js'
-import Contacts from './pages/Contact.js'
+import Contacts from './pages/Contacts.js'
 import PageNotFound from './pages/PageNotFound.js';
-// const About = { template: `<div>About</div>`}
-// const NotFoundComponent = { template: `<div>Errore</div>`}
 
 const { createApp } = Vue;
 
@@ -24,7 +22,7 @@ const router = VueRouter.createRouter({
 
 const app = createApp({});
 
-// app.component('index', Home)
+// app.component('about', Contacts)
 
 app.use(router);
 
