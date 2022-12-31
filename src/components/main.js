@@ -1,7 +1,7 @@
 import Home from './pages/Index.js';
 import About from './pages/About.js';
-import Service from './pages/Service.js'
-import Contacts from './pages/Contacts.js'
+import Services from './pages/Services.js'
+import Collaborations from './pages/Collaborations.js'
 import PageNotFound from './pages/PageNotFound.js';
 
 const { createApp } = Vue;
@@ -10,8 +10,8 @@ const { createApp } = Vue;
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
-    { path: '/service', component: Service },
-    { path: '/contacts', component: Contacts },
+    { path: '/service', component: Services },
+    { path: '/collaborations', component: Collaborations },
     { path: '/:pathMatch(.*)', component: PageNotFound }
 ];
 

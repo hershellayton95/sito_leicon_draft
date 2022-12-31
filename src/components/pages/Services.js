@@ -1,22 +1,11 @@
 import Container from "../layout/Container.js";
 
-const Home = {
+const Services = {
     template: `
     <container>
     <main>
-        <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container">
-                <h1 class="display-3 mb-4 animated slideInDown">Competenze</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Competenze</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- Page Header End -->
+
+    <page-header>Servizi</page-header>
 
 
         <!-- Service Start -->
@@ -232,5 +221,5 @@ const Home = {
     }
 }
 
-export default Home;
+export default Services;
 
