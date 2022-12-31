@@ -229,7 +229,13 @@ const Collaboratios = {
     components:{
         container: Container,
         "page-header": PageHeader
-    }
+    },
+    mounted() {
+        document.getElementById("mn4").classList.add('active');
+    },
+    beforeUnmount() {
+        document.getElementById("mn4").classList.remove('active');
+    },
 }
 
 export default Collaboratios;

@@ -19,10 +19,11 @@ const Navbar = {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <router-link to="/" class="nav-item nav-link active">Home</router-link>
-                        <router-link to="/service" class="nav-item nav-link">Servizi</router-link>
-                        <router-link to="/collaborations" class="nav-item nav-link">Collaborazioni</router-link>
-                        <router-link to="/privacy" class="nav-item nav-link">Privacy</router-link>
+                        <router-link id="mn1" to="/" class="nav-item nav-link">Home</router-link>
+                        <router-link id="mn2" to="/about" class="nav-item nav-link">Chi Siamo</router-link>
+                        <router-link id="mn3" to="/service" class="nav-item nav-link">Servizi</router-link>
+                        <router-link id="mn4" to="/collaborations" class="nav-item nav-link">Collaborazioni</router-link>
+                        <router-link id="mn5" to="/privacy" class="nav-item nav-link">Privacy</router-link>
                     </div>
                 </div>
             </nav>
