@@ -14,7 +14,10 @@ const Services = {
         <!-- Service Start -->
         <service/>
         <!-- Service End -->
+
         <barra-blue/>
+
+        <!-- Servizi Completi Start -->
         <div class="container">
             <div class="py-5">
                 <h1 class="mb-4">D.Lgs 231/01 e Responsabilità Amministrativa</h1>
@@ -68,6 +71,8 @@ const Services = {
                     ed inglese.</p>
             </div>
         </div>
+
+        <!-- Servizi Completi Start -->
         </main>
     </container>
     `,
