@@ -19,7 +19,10 @@ const PageNotFound = {
         container: Container,
         "page-header": PageHeader,
         "error-section": ErrorSection
-    }
+    },
+    beforeMount () {
+        document.documentElement.scrollTop = 0;
+    },
 }
 
 export default PageNotFound;

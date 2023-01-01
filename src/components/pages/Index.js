@@ -39,6 +39,9 @@ const Home = {
         service: ServiceSection,
         "patner-section": PatnerSection
     },
+    beforeMount () {
+        document.documentElement.scrollTop = 0;
+    },
     mounted() {
         document.getElementById("mn1").classList.add('active');
     },

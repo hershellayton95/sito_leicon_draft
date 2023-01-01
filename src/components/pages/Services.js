@@ -82,6 +82,9 @@ const Services = {
         service: ServiceSection,
         "barra-blue": barraBlue
     },
+    beforeMount () {
+        document.documentElement.scrollTop = 0;
+    },
     mounted() {
         document.getElementById("mn3").classList.add('active');
     },

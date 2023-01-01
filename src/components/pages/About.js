@@ -7,20 +7,20 @@ import PatnerSection from "../layout/PatnerSection.js";
 const About = {
     template: `
     <container>
-<main>
-    <page-header>About</page-header>
+        <main>
+            <page-header>About</page-header>
 
 
-    <!-- About Start -->
-        <about/>
-    <!-- About End -->
+            <!-- About Start -->
+                <about/>
+            <!-- About End -->
 
-    <barra-blue/>
+            <barra-blue/>
 
-    <!-- Patnership Start-->
-    <patner-section/>
-    <!-- Patnership End-->
-</main>
+            <!-- Patnership Start-->
+            <patner-section/>
+            <!-- Patnership End-->
+        </main>
     </container>
     `,
     components:{
@@ -29,6 +29,9 @@ const About = {
         about: AboutSection,
         "barra-blue":barraBlue,
         "patner-section": PatnerSection
+    },
+    beforeMount () {
+        document.documentElement.scrollTop = 0;
     },
     mounted() {
         document.getElementById("mn2").classList.add('active');
