@@ -2,7 +2,7 @@ import barraBlue from "../components/barraBlue.js";
 import AboutSection from "../layout/AboutSection.js";
 import Carousel from "../layout/Carousel.js";
 import Container from "../layout/Container.js";
-import PatnerSection from "../layout/PatnerSection.js";
+import PatnerSection from "../layout/CollaborationSection.js";
 import ServiceSection from "../layout/ServiceSection.js";
 
 const Home = {

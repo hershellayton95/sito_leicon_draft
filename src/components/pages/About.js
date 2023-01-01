@@ -2,7 +2,7 @@ import barraBlue from "../components/barraBlue.js";
 import AboutSection from "../layout/AboutSection.js";
 import Container from "../layout/Container.js";
 import PageHeader from "../layout/PageHeader.js";
-import PatnerSection from "../layout/PatnerSection.js";
+import PatnerSection from "../layout/CollaborationSection.js";
 
 const About = {
     template: `
