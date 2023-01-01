@@ -14,13 +14,13 @@ const Home = {
         <!-- Carousel End -->
 
         <!-- About Start -->
-        <about/>
+        <about-section/>
         <!-- About End -->
 
         <barra-blue/>
 
         <!-- Service Start -->
-        <service/>
+        <services/>
         <!-- Service End -->
 
         <barra-blue/>
@@ -34,9 +34,9 @@ const Home = {
     components:{
         container: Container,
         carousel: Carousel,
-        about: AboutSection,
+        "about-section": AboutSection,
         "barra-blue":barraBlue,
-        service: ServiceSection,
+        services: ServiceSection,
         "patner-section": PatnerSection
     },
     beforeMount () {
