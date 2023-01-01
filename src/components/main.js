@@ -22,10 +22,6 @@ const router = VueRouter.createRouter({
 
 const app = createApp({});
 
-// app.component('about', Contacts)
-
 app.use(router);
-
-
 
 app.mount("#app");

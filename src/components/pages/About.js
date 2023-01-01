@@ -10,7 +10,6 @@ const About = {
         <main>
             <page-header>About</page-header>
 
-
             <!-- About Start -->
                 <about/>
             <!-- About End -->

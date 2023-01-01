@@ -15,9 +15,11 @@ const Footer = {
 
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-4">Link Rapidi</h4>
-                        <a class="btn btn-link" href="">Servizi</a>
-                        <a class="btn btn-link" href="">Collaborazioni</a>
-                        <a class="btn btn-link" href="">Privacy</a>
+                        <router-link to="/" class="btn btn-link">Home</router-link>
+                        <router-link to="/about" class="btn btn-link">Chi Siamo</router-link>
+                        <router-link to="/service" class="btn btn-link">Servizi</router-link>
+                        <router-link to="/collaborations" class="btn btn-link">Collaborazioni</router-link>
+                        <router-link to="/privacy" class="btn btn-link">Privacy</router-link>
                     </div>
                 </div>
             </div>
