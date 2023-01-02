@@ -6,7 +6,6 @@ const Privacy = {
         <container>
             <main>
                 <page-header>Privacy</page-header>
-
                 <div class="container">
                     <div class="row fs-6 mb-4">
                         <div class="col-12">
@@ -93,7 +92,7 @@ const Privacy = {
                         <div class="col-12">
                         <h1 class="mb-4">Tabella cookie</h1>
                             <p>Significato delle sigle tipo: <strong>T</strong> cookie tecnico, <strong>P</strong> di profilazione, <strong>PT</strong> di profilazione di terzi.<br />Significato delle sigle durata: <strong>G</strong> durata fino a 1 giorno, <strong>S</strong> durata oltre il giorno fino ad una settimana, <strong>O</strong> durata oltre la settimana fino a un mese, <strong>A(durata)</strong> altra durata indicata, <strong>N</strong> durata non nota.<br /> Formato della lista: riga <strong>1</strong> "<strong>nome</strong>" del cookie (sfondo giallo), riga <strong>2</strong> "<strong>dominio</strong>" del cookie, riga <strong>3</strong> "<strong>tipo</strong>" e "<strong>durata</strong>" del cookie, riga <strong>4</strong> "<strong>descrizione</strong>" del cookie.</p>
-                            <p class="fs-1">QUESTO SITO NON FA USO DI COCKIES</p>
+
                         </div>
                     </div>
                 </div>

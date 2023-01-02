@@ -12,7 +12,7 @@ const Home = {
         <!-- Carousel Start -->
         <carousel/>
         <!-- Carousel End -->
-
+        <h2 class="text-center bg-danger text-white py-3 d-lg-none">QUESTO SITO NON FA USO DI COOKIES</h2>
         <!-- About Start -->
         <about-section/>
         <!-- About End -->

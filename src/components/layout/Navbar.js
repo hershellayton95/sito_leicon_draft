@@ -3,6 +3,7 @@ const Navbar = {
     <header>
         <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+        <h2 class="text-center bg-danger text-white">QUESTO SITO NON FA USO DI COOKIES</h2>
         </div>
             <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <router-link id="mn1" to="/" class="navbar-brand ms-4 ms-lg-0">
