@@ -11,7 +11,7 @@ const Carousel = {
                             <div class="col-lg-8">
                                 <h1 class="display-1 mb-4 animated slideInDown">{{item.title}}
                                 </h1>
-                                <a v-if="item.src_btn && item.button" :href=input.src_btn class="btn btn-primary py-3 px-5 animated slideInDown">{{item.button}}</a>
+                                <a v-if="item.src_btn && item.button" :href=input.src_btn class="btn btn-primary py-3 px-5 mt-5 animated slideInDown">{{item.button}}</a>
                             </div>
                         </div>
                     </div>
