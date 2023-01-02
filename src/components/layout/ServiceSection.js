@@ -33,7 +33,7 @@ const ServiceSection = {
                                 </p>
                                 <p v-if="item.listItems" v-for="item in item.listItems"><i class="fa fa-check text-primary me-3"></i>{{item}}
                                 </p>
-                                <a href="#dlgs-ra" class="btn btn-primary py-3 px-5 mt-3">Scopri di più</a>
+                                <router-link to="/service" @click="scroll(item.target)" class="btn btn-primary py-3 px-5 mt-3">Scopri di più</router-link>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,8 @@ data() {
                 extendedTitle: "D.Lgs 231/01 e Responsabilità Amministrativa",
                 image: "./img/service-1.jpg",
                 content: "Le nostre competenze e attività in materia della Responsabilità amministrativa delle società e degli enti (D.Lgs 231/01) sono:",
-                listItems: ["Analisi e Gestione del Rischio", "Organizzazione del sistema di deleghe e responsabilità", "Formazione e Vigilanza" ]
+                listItems: ["Analisi e Gestione del Rischio", "Organizzazione del sistema di deleghe e responsabilità", "Formazione e Vigilanza" ],
+                target: "dlgs-ra"
             },
             {
                 id: "tab-pane-2",
@@ -62,7 +63,8 @@ data() {
                 extendedTitle: "Privacy",
                 image: "./img/service-2.jpg",
                 content: "Le nostre competenze e attività in materia ci consentono di affrontare le problematiche ordinarie in ogni settore lavorativo, come ad esempio: ",
-                listItems: ["Area Medico-Sanitario", "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato"]
+                listItems: ["Area Medico-Sanitario", "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato"],
+                target: "privacy"
             },
             {
                 id: "tab-pane-3",
@@ -71,7 +73,8 @@ data() {
                 extendedTitle: "Audit ISO 9001",
                 image: "./img/service-3.jpg",
                 content: "Le nostre competenze e attività in materia ci consentono di affiancare l’azienda nel mantenere attivo e funzionale il sistema di gestione qualità eseguendo: ",
-                listItems: ["Aggiornamenti", "Monitoraggi",  "Audit"]
+                listItems: ["Aggiornamenti", "Monitoraggi",  "Audit"],
+                target: "audit"
             },
             {
                 id: "tab-pane-4",
@@ -80,12 +83,18 @@ data() {
                 extendedTitle: "Licensing",
                 image: "./img/service-4.jpg",
                 content: "Le nostre competenze in termini di Licenze ci permette: ",
-                listItems: ["Redazione di licenze in ambito proprietario e open source", "Valutazione testi di licenza in Italiano", "Valutazione testi di licenza in Inglese"]
+                listItems: ["Redazione di licenze in ambito proprietario e open source", "Valutazione testi di licenza in Italiano", "Valutazione testi di licenza in Inglese"],
+                target: "licensing"
             },
         ]
 }
 },
-
+methods: {
+    scroll(element){
+        var ele = document.getElementById(element);
+        window.scrollTo(ele.offsetLeft,ele.offsetTop-100);
+    }
+},
 mounted() {
     document.querySelector('[data-bs-target="#tab-pane-1"]').classList.add('active');
     document.getElementById('tab-pane-1').classList.add('show','active');
