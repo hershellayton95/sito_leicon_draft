@@ -7,10 +7,10 @@ const Footer = {
                 <div class="row justify-content-start g-5">
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-4">Contatti</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <p class="mb-2"><i class="fab fa-linkedin-in me-3"></i>info@example.com</p>
+                        <p class="mb-0 d-flex align-items-baseline"><i class="fa fa-map-marker-alt me-3"></i><p>Via delle Cascine, 38<br/>21041 Albizzate (VA)</p></p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+39 3406825226</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@leicon.it</p>
+                        <p class="mb-2"><i class="fab fa-linkedin-in me-3"></i>Serenella Saccon</p>
                     </div>
 
                     <div class="col-lg-3 col-md-6">

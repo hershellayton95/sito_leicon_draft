@@ -39,10 +39,11 @@ const Home = {
         services: ServiceSection,
         "patner-section": PatnerSection
     },
+
     beforeMount () {
         document.documentElement.scrollTop = 0;
     },
-    Updated() {
+    mounted() {
         document.getElementById("mn1").classList.add('active');
     },
     beforeUnmount() {

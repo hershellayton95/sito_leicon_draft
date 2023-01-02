@@ -52,7 +52,7 @@ data() {
                 title: "D.Lgs 231/01 e RA",
                 extendedTitle: "D.Lgs 231/01 e Responsabilità Amministrativa",
                 image: "./img/service-1.jpg",
-                content: "Le nostre competenze e attività in materia della Responsabilità amministrativa delle società e degli enti (D.Lgs 231/01) sono:",
+                content: "Le nostre competenze e attività in materia di Responsabilità Amministrativa delle società e degli enti (D.Lgs 231/01):",
                 listItems: ["Analisi e Gestione del Rischio", "Organizzazione del sistema di deleghe e responsabilità", "Formazione e Vigilanza" ],
                 target: "dlgs-ra"
             },
@@ -62,7 +62,7 @@ data() {
                 title: "Privacy",
                 extendedTitle: "Privacy",
                 image: "./img/service-2.jpg",
-                content: "Le nostre competenze e attività in materia ci consentono di affrontare le problematiche ordinarie in ogni settore lavorativo, compresa l’area medico sanitaria",
+                content: "Le nostre competenze multidisciplinari ci consentono di affrontare problematiche ordinarie e straordinarie in ogni settore lavorativo, compresa l’area medico sanitaria.",
                 target: "privacy"
             },
             {
@@ -72,7 +72,7 @@ data() {
                 extendedTitle: "Audit ISO 9001",
                 image: "./img/service-3.jpg",
                 content: "Le nostre competenze e attività in materia ci consentono di affiancare l’azienda nel mantenere attivo e funzionale il sistema di gestione qualità eseguendo: ",
-                listItems: ["Aggiornamenti", "Monitoraggi",  "Audit"],
+                listItems: ["Aggiornamenti", "Monitoraggi", "Audit", "Integrazione documentale"],
                 target: "audit"
             },
             {
@@ -81,8 +81,8 @@ data() {
                 title: "Licensing",
                 extendedTitle: "Licensing",
                 image: "./img/service-4.jpg",
-                content: "Le nostre competenze in termini di Licenze ci permette: ",
-                listItems: ["Redazione di licenze in ambito proprietario e open source", "Valutazione testi di licenza in Italiano", "Valutazione testi di licenza in Inglese"],
+                content: "Le nostre competenze comprendono: ",
+                listItems: ["Redazione di licenze in ambito proprietario e open source", "Valutazione testi di licenza in Italiano ed inglese", "Contrattistica internazionale"],
                 target: "licensing"
             },
         ]
