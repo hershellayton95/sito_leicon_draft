@@ -62,8 +62,7 @@ data() {
                 title: "Privacy",
                 extendedTitle: "Privacy",
                 image: "./img/service-2.jpg",
-                content: "Le nostre competenze e attività in materia ci consentono di affrontare le problematiche ordinarie in ogni settore lavorativo, come ad esempio: ",
-                listItems: ["Area Medico-Sanitario", "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato",  "Aggiunger eltro settore in cui c'è mercato"],
+                content: "Le nostre competenze e attività in materia ci consentono di affrontare le problematiche ordinarie in ogni settore lavorativo, compresa l’area medico sanitaria",
                 target: "privacy"
             },
             {

@@ -42,7 +42,7 @@ const Home = {
     beforeMount () {
         document.documentElement.scrollTop = 0;
     },
-    mounted() {
+    Updated() {
         document.getElementById("mn1").classList.add('active');
     },
     beforeUnmount() {
