@@ -5,7 +5,7 @@ const PatnerSection = {
             <p class="fs-4 mb-5 wow fadeInUp">Siamo lieti di presentarvi le persone e le aziende ed associazioni con cui abbiamo l'onore di lavorare:</p>
             <div class="container-sm row justify-content-center" style="max-width:750px">
                 <div v-for="item in input" class="col-6 col-md-4 text-center mt-3">
-                    <img :src="item.image" alt="MAPOD4D" style="width:100px; height: auto; cursor:pointer">
+                    <img v-if="item.image" :src="item.image" alt="MAPOD4D" style="width:auto; height: 100px; cursor:pointer">
                             <h5 class="card-title mt-3">
                             {{item.title}}
                             </h5>
@@ -18,23 +18,23 @@ const PatnerSection = {
             input: [
                 {
                     title: "MAPOD4D",
-                    image: "./img/mapod_new_render_scontornato.png"
+                    image: "./img/mapod.png"
                 },
                 {
                     title: "ROBDEV",
-                    image: "./img/mapod_new_render_scontornato.png"
+                    image: ""
                 },
                 {
                     title: "ARCHEOS TEC",
-                    image: "./img/mapod_new_render_scontornato.png"
+                    image: "./img/archeostec.jpg"
                 },
                 {
                     title: "ARGONAVIS srl",
-                    image: "./img/mapod_new_render_scontornato.png"
+                    image: "./img/argonavis.jpg"
                 },
                 {
                     title: "OSTEOARC",
-                    image: "./img/mapod_new_render_scontornato.png"
+                    image: "./img/osteoarc.jpg"
                 }
             ]
         }
