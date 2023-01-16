@@ -1,7 +1,6 @@
 import Home from './pages/Index.js';
 import About from './pages/About.js';
-import Services from './pages/Services.js'
-import Collaborations from './pages/Collaborations.js'
+import Services from './pages/Services.js';
 import PageNotFound from './pages/PageNotFound.js';
 import Privacy from './pages/Privacy.js';
 
@@ -12,7 +11,6 @@ const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
     { path: '/service', component: Services },
-    { path: '/collaborations', component: Collaborations },
     { path: '/privacy', component: Privacy },
     { path: '/:pathMatch(.*)', component: PageNotFound }
 ];
