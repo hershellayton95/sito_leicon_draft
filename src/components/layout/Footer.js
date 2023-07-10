@@ -1,10 +1,16 @@
 const Footer = {
-    template: `
+  template: `
     <footer>
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row justify-content-start g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Info</h4>
+                        <p class="mb-0 d-flex align-items-baseline"><i class="fa fa-angle-right me-3"></i><p>Ragione sociale: <br/>LEICON di Serenella Saccon</p></p>
+                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i>P.IVA:  02685800126</p>
+                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i>REA: VA-277881</p>
+                    </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-4">Contatti</h4>
                         <p class="mb-0 d-flex align-items-baseline"><i class="fa fa-map-marker-alt me-3"></i><p>Via delle Cascine, 38<br/>21041 Albizzate (VA)</p></p>
@@ -37,14 +43,14 @@ const Footer = {
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By
-                        <a href="https://themewagon.com">ThemeWagon</a> Modified By <a href="https://www.linkedin.com/in/filippo-di-marco-703649168/">Filippo Di Marco</a>
+                        <a href="https://themewagon.com">ThemeWagon</a> Modified By <a class="border-bottom" href="https://www.linkedin.com/in/filippo-di-marco-703649168/">Filippo Di Marco</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Copyright End -->
     </footer>
-    `
-}
+    `,
+};
 
 export default Footer;
