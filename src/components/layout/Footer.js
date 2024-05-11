@@ -7,9 +7,12 @@ const Footer = {
                 <div class="row justify-content-start g-5">
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-4">Info</h4>
-                        <p class="mb-0 d-flex align-items-baseline"><i class="fa fa-angle-right me-3"></i><p>Ragione sociale: <br/>LEICON di Serenella Saccon</p></p>
-                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i>P.IVA:  02685800126</p>
-                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i>REA: VA-277881</p>
+                        <p class="mb-0 d-flex align-items-baseline"><i class="fa fa-angle-right me-3"></i><p><b>Ragione sociale:</b> <br/>LEICON di Serenella Saccon</p></p>
+                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i><b>P.IVA:</b>  02685800126</p>
+                        <p class="mb-2"><i class="fa fa-angle-right me-3"></i><b>REA:</b> VA-277881</p>
+                        <p class="mb-2 d-flex align-items-baseline"><i class="fa fa-angle-right me-3"></i><p><b>Polizza Responsabilità Civile Professionale:</b> <br/>PI-8662212440 <br/> 
+                        Compagnia Arch Insurance (EU) DAC
+                        tramite DUAL Italia S.p.A.</p><p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-4">Contatti</h4>
